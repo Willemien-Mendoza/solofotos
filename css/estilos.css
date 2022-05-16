@@ -1,0 +1,192 @@
+footer {
+    background-color: gainsboro;
+}
+
+ul {
+    list-style-type: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.lista {
+    display: flex;
+    list-style-type: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+
+a {
+    display: flex;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 25px;
+    text-decoration: none;
+    margin: 5px;
+    padding: 5px 20px;
+    color: black;
+    background: #3ba7e1;
+
+    display: flex;
+    flex-flow: row wrap;
+
+    border: 3px solid;
+    border-radius: 7px;
+    margin: 10px 10px;
+}
+
+
+header {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 40px;
+    z-index: inherit;
+}
+
+.sobreimagen {
+    background-image: url(https://scontent.fntr6-1.fna.fbcdn.net/v/t1.15752-9/259210657_319643683538043_5797600673593733579_n.jpg?stp=dst-jpg_p1080x2048&_nc_cat=107&ccb=1-5&_nc_sid=ae9488&_nc_eui2=AeHI-VpgVlKM_qCpOHhGeKOvxa5TkfUs8crFrlOR9SzxyhND3VvBykBOyfaMWA1gn9iDfyJ6Skw7UIr4Q6YJXMtw&_nc_ohc=sP2wpp9qiT4AX92mcZ5&tn=kbcecX4p-GNuqAe_&_nc_ht=scontent.fntr6-1.fna&oh=03_AVKOT35IBToXlFSMcDx4N9Hd8_KRzYD8U5NrzxcZo9uf_A&oe=628BA458);
+    object-fit: cover;
+}
+
+section {
+    font-family: 'Pacifico', cursive;
+    object-fit: cover;
+}
+
+
+
+.imgizq {
+    float: left;
+    background-color: black;
+    padding: 10px;
+}
+
+.der {
+    float: right;
+    background-color: black;
+    padding: 10px;
+}
+
+.cent {
+    float: calc();
+    background-color: black;
+    padding: 10px;
+}
+
+img {
+    object-fit: cover;
+}
+
+.papa {
+    display: flex;
+    flex-flow: row wrap;
+
+    border-radius: 7px;
+    margin: 10px 10px;
+}
+
+.menú {
+
+    display: flex;
+    flex-flow: row wrap;
+    padding: 25px 10px;
+    text-decoration: none;
+    color: black;
+    transition: all 0.3s ease;
+    border-bottom: 2px solid transparent;
+    font-size: 25px;
+    top: -4px;
+    border-radius: 7px;
+    margin: 10px 10px;
+}
+
+
+
+.texto-justificado {
+    text-align: justify;
+}
+
+.share {
+    justify-content: center;
+    text-decoration: none;
+    background-color: none;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+
+.share a {
+    margin: 0 5px;
+    text-decoration: none;
+    color: #fff;
+    padding: 10px;
+    border-radius: 0 5px;
+
+}
+
+.share .whatsapp {
+    background: #018101;
+}
+
+.share .facebook {
+    background: #050599;
+}
+
+.grid_container {
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+}
+
+.grid_container2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.grid_container1 {
+    display: grid;
+}
+
+.grid_item {
+    display: list-item;
+}
+
+.logo {
+    width: 80px;
+    position: absolute;
+    top: -4px;
+    left: 20px;
+}
+
+.video{
+    align-self: center;
+}
+
+@media (min-width: 30em) {
+    .menu>a {
+        flex: .3 0 auto;
+
+    }
+    .menu {
+        width: 50%;
+
+    }
+}
+
+@media screen and (max-width:768px) {
+    .grid_container{
+        grid-column: 2/-2;
+    }
+
+    .sobreimagen{
+        grid-column: 2/-2;
+    }
+
+    .video{
+        grid-column: 2/-2;
+    }
+
+    .grid_container2{
+        grid-column: 2/-2;
+    }
+
+    .grid_item {
+        display: list-item;
+    }
+}
+
