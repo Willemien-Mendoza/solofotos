@@ -45,6 +45,11 @@ header {
     object-fit: cover;
 }
 
+.gradiente {
+    background-image: linear-gradient(to top, rgb(231, 125, 231), pink);
+}
+
+
 section {
     font-family: 'Pacifico', cursive;
     object-fit: cover;
@@ -122,10 +127,19 @@ img {
 
 .share .whatsapp {
     background: #018101;
+    text-align: center;
 }
 
+.whatsapp:hover{
+    transform: scale(0.8);
+}
 .share .facebook {
     background: #050599;
+    text-align: center;
+}
+
+.facebook:hover{
+    transform: scale(0.8);
 }
 
 .grid_container {
@@ -155,6 +169,34 @@ img {
 
 .video{
     align-self: center;
+}
+
+.animación{
+    animation-duration: 4s;
+    animation-name: animación_texto;
+    animation-iteration-count: infinite;
+}
+
+@keyframes animación_texto{
+    0% {
+        color: aquamarine;
+    }
+
+    25% {
+        color: #3ba7e1;
+    }
+
+    50% {
+        color: black;
+    }
+
+    75% {
+        color: purple;
+    }
+
+    100% {
+        color: palevioletred;
+    }
 }
 
 @media (min-width: 30em) {
