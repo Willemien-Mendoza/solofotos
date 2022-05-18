@@ -56,7 +56,7 @@ section {
 }
 
 
-
+/*he dejado las siguientes clases, aunque fueron hechas antes de aplicar bootstrap, porque las imágenes se movían un poco, no quedaban alineadas unas con otras*/
 .imgizq {
     float: left;
     background-color: black;
