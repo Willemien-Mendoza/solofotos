@@ -40,10 +40,7 @@ header {
     z-index: inherit;
 }
 
-.sobreimagen {
-    background-image: url(https://scontent.fntr6-1.fna.fbcdn.net/v/t1.15752-9/259210657_319643683538043_5797600673593733579_n.jpg?stp=dst-jpg_p1080x2048&_nc_cat=107&ccb=1-5&_nc_sid=ae9488&_nc_eui2=AeHI-VpgVlKM_qCpOHhGeKOvxa5TkfUs8crFrlOR9SzxyhND3VvBykBOyfaMWA1gn9iDfyJ6Skw7UIr4Q6YJXMtw&_nc_ohc=sP2wpp9qiT4AX92mcZ5&tn=kbcecX4p-GNuqAe_&_nc_ht=scontent.fntr6-1.fna&oh=03_AVKOT35IBToXlFSMcDx4N9Hd8_KRzYD8U5NrzxcZo9uf_A&oe=628BA458);
-    object-fit: cover;
-}
+
 
 .gradiente {
     background-image: linear-gradient(to top, rgb(231, 125, 231), pink);
@@ -56,22 +53,22 @@ section {
 }
 
 
-
+/*he dejado las siguientes clases, aunque fueron hechas antes de aplicar bootstrap, porque las imágenes se movían un poco, no quedaban alineadas unas con otras*/
 .imgizq {
     float: left;
-    background-color: black;
+    background-color: white;
     padding: 10px;
 }
 
 .der {
     float: right;
-    background-color: black;
+    background-color: white;
     padding: 10px;
 }
 
 .cent {
     float: calc();
-    background-color: black;
+    background-color: white;
     padding: 10px;
 }
 
@@ -106,6 +103,10 @@ img {
 
 .texto-justificado {
     text-align: justify;
+}
+
+.texto_centro{
+    text-align: center;
 }
 
 .share {
@@ -167,9 +168,7 @@ img {
     left: 20px;
 }
 
-.video{
-    align-self: center;
-}
+
 
 .animación{
     animation-duration: 4s;
