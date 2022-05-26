@@ -1,0 +1,233 @@
+footer {
+    background-color: gainsboro;
+}
+
+ul {
+    list-style-type: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.lista {
+    display: flex;
+    list-style-type: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+
+a {
+    display: flex;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 25px;
+    text-decoration: none;
+    margin: 5px;
+    padding: 5px 20px;
+    color: black;
+    background: #3ba7e1;
+
+    display: flex;
+    flex-flow: row wrap;
+
+    border: 3px solid;
+    border-radius: 7px;
+    margin: 10px 10px;
+}
+
+
+header {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 40px;
+    z-index: inherit;
+}
+
+
+
+.gradiente {
+    background-image: linear-gradient(to top, rgb(231, 125, 231), pink);
+}
+
+
+section {
+    font-family: 'Pacifico', cursive;
+    object-fit: cover;
+}
+
+
+/*he dejado las siguientes clases, aunque fueron hechas antes de aplicar bootstrap, porque las imágenes se movían un poco, no quedaban alineadas unas con otras*/
+.imgizq {
+    float: left;
+    background-color: white;
+    padding: 10px;
+}
+
+.der {
+    float: right;
+    background-color: white;
+    padding: 10px;
+}
+
+.cent {
+    float: calc();
+    background-color: white;
+    padding: 10px;
+}
+
+img {
+    object-fit: cover;
+}
+
+.papa {
+    display: flex;
+    flex-flow: row wrap;
+
+    border-radius: 7px;
+    margin: 10px 10px;
+}
+
+.menú {
+
+    display: flex;
+    flex-flow: row wrap;
+    padding: 25px 10px;
+    text-decoration: none;
+    color: black;
+    transition: all 0.3s ease;
+    border-bottom: 2px solid transparent;
+    font-size: 25px;
+    top: -4px;
+    border-radius: 7px;
+    margin: 10px 10px;
+}
+
+
+
+.texto-justificado {
+    text-align: justify;
+}
+
+.texto_centro{
+    text-align: center;
+}
+
+.share {
+    justify-content: center;
+    text-decoration: none;
+    background-color: none;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+
+.share a {
+    margin: 0 5px;
+    text-decoration: none;
+    color: #fff;
+    padding: 10px;
+    border-radius: 0 5px;
+
+}
+
+.share .whatsapp {
+    background: #018101;
+    text-align: center;
+}
+
+.whatsapp:hover{
+    transform: scale(0.8);
+}
+.share .facebook {
+    background: #050599;
+    text-align: center;
+}
+
+.facebook:hover{
+    transform: scale(0.8);
+}
+
+.grid_container {
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+}
+
+.grid_container2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.grid_container1 {
+    display: grid;
+}
+
+.grid_item {
+    display: list-item;
+}
+
+.logo {
+    width: 80px;
+    position: absolute;
+    top: -4px;
+    left: 20px;
+}
+
+
+
+.animación{
+    animation-duration: 4s;
+    animation-name: animación_texto;
+    animation-iteration-count: infinite;
+}
+
+@keyframes animación_texto{
+    0% {
+        color: rgb(11, 87, 61);
+    }
+
+    25% {
+        color: #3ba7e1;
+    }
+
+    50% {
+        color: black;
+    }
+
+    75% {
+        color: purple;
+    }
+
+    100% {
+        color: palevioletred;
+    }
+}
+
+@media (min-width: 30em) {
+    .menu>a {
+        flex: .3 0 auto;
+
+    }
+    .menu {
+        width: 50%;
+
+    }
+}
+
+@media screen and (max-width:768px) {
+    .grid_container{
+        grid-column: 2/-2;
+    }
+
+    .sobreimagen{
+        grid-column: 2/-2;
+    }
+
+    .video{
+        grid-column: 2/-2;
+    }
+
+    .grid_container2{
+        grid-column: 2/-2;
+    }
+
+    .grid_item {
+        display: list-item;
+    }
+}
+
