@@ -1,23 +1,31 @@
+@import 'variables';
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box; 
+}
+
 footer {
     background-color: gainsboro;
 }
 
 ul {
     list-style-type: none;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: $tipografia;
 }
 
 .lista {
     display: flex;
     list-style-type: none;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: $tipografia;
 }
 
 
 
 a {
     display: flex;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: $tipografia;
     font-size: 25px;
     text-decoration: none;
     margin: 5px;
@@ -35,7 +43,7 @@ a {
 
 
 header {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: $tipografia;
     padding: 40px;
     z-index: inherit;
 }
