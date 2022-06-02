@@ -1,0 +1,19 @@
+@mixin backgroudpadding {
+    background-color: white;
+    padding: 10px;
+}
+
+.imgizq {
+    float: left;
+    @include backgroudpadding;
+}
+
+.der {
+    float: right;
+    @include backgroudpadding;
+}
+
+.cent {
+    float: calc();
+    @include backgroudpadding;
+}

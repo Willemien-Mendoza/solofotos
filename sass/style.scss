@@ -10,6 +10,8 @@ footer {
     background-color: gainsboro;
 }
 
+
+
 ul {
     list-style-type: none;
     font-family: $tipografia;
@@ -64,20 +66,17 @@ section {
 /*he dejado las siguientes clases, aunque fueron hechas antes de aplicar bootstrap, porque las imágenes se movían un poco, no quedaban alineadas unas con otras*/
 .imgizq {
     float: left;
-    background-color: white;
-    padding: 10px;
+    
 }
 
 .der {
     float: right;
-    background-color: white;
-    padding: 10px;
+    
 }
 
 .cent {
     float: calc();
-    background-color: white;
-    padding: 10px;
+    
 }
 
 img {

@@ -1,0 +1,17 @@
+.imgizq {
+    float: left;
+    background-color: white;
+    padding: 10px;
+}
+
+.der {
+    float: right;
+    background-color: white;
+    padding: 10px;
+}
+
+.cent {
+    float: calc();
+    background-color: white;
+    padding: 10px;
+}
