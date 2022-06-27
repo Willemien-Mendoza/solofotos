@@ -28,7 +28,7 @@ a {
     margin: 5px;
     padding: 5px 20px;
     color: black;
-    background: #3ba7e1;
+    
 
     display: flex;
     flex-flow: row wrap;
@@ -37,6 +37,7 @@ a {
     border-radius: 7px;
     margin: 10px 10px;
 }
+
 
 
 header {
@@ -89,6 +90,14 @@ img {
     margin: 10px 10px;
 }
 
+.navbar-toggler{
+    color: white;
+}
+
+.navbar-toggler-icon{
+    color: #fff;
+}
+
 .menú {
 
     display: flex;
@@ -114,6 +123,12 @@ img {
     text-align: center;
 }
 
+.texto-centro{
+    font-size: x-large;
+
+}
+
+
 .share {
     justify-content: center;
     text-decoration: none;
@@ -135,6 +150,8 @@ img {
     background: #018101;
     text-align: center;
 }
+
+
 
 .whatsapp:hover{
     transform: scale(0.8);
